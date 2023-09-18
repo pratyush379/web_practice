@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            margin: 0;
+            height: 100%;
+            /* background-image: url("wallpaper.jpg") ;
+            background-position: center;
+            background-repeat: no-repeat;
+            height:100%;
+            background-size: cover; */
+        }
+        .container{
+            background-color: yellow;
+            height: 35px;
+            text-align: center;
+            overflow: hidden;
+            border: 5px solid black;
+            
+            
+        }
+        .bodyContainer{
+           
+            border-right: 2px solid black;
+            background-color: red;
+            width: 100%;
+            height: 100%;
+            background-image: url("wallpaper.jpg") ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            visibility: visible;
+           
+          
+        }
+
+       .bg{
+            border-right: 2px solid black;
+           
+            width: 100%;
+            height: 100%;
+            background-image: url("pratyush.jpg") ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            visibility: visible;
+            float:parent;
+          
+        }
+
+        #home,#about,#contact{
+            font-size: 32px;
+            float: left;
+            margin-right: 25px;
+            color: blue;
+            
+        }
+        #close{
+            float: right;
+            margin-right: 5px;
+            font-size: 32px;
+            color: blue;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+        .container a{
+            color: blue;
+        }
+
+        .container a:hover{
+         color: red;
+        }
+
+        .container a:visited{
+            color: black;
+        }
+
+       
+    </style>
+</head>
+<body>
+  
+    <div class="bodyContainer">
+    <div class="container">
+
+    <div id="home" ><a href="www.google.com">Home</a></div> 
+    <div id="contact"><a href="#">contact us</a></div> 
+    <div id="about"><a href="#">about us</a></div> 
+    <div id="close"><a href="#">close</a></div>
+    
+    </div>
+
+   <div class="bg"></div>
+</div>
+
+
+</body>
+</html>

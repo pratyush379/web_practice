@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            border: 1px solid blue;
+         display: flex;
+         padding: 50px;
+         /* height: 700px; */
+         flex-direction: row;/*default*/
+         /* flex-direction: column;
+         flex-direction: row-reverse;
+         flex-direction: column-reverse; */
+
+         /* justify-content: center; */
+         /* justify-content: left ; see the diff between left and flext-end*/
+         justify-content:  flex-end;
+         justify-content: flex-start;/*default*/
+        
+         justify-content: space-evenly;
+         justify-content: space-around;
+
+         /* align-items:center;
+         align-items: flex-end;
+         align-items: flex-start;
+         align-items: baseline; */
+         align-items: flex-end;
+         justify-content:  flex-start;
+
+         flex-wrap: wrap;
+         flex-wrap: wrap-reverse;
+         width: 50px;
+
+
+          
+        }
+
+        .f1{
+            border: 20px solid black;
+            margin: 4px;
+            width: 100px;
+            height: 100px;
+           
+            
+           
+        }
+
+        #a4{
+            flex-shrink: 4;
+            order: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="f1" id="a1">1</div>
+    <div class="f1">2</div>
+    <div class="f1">3</div>
+    <div class="f1" id="a4">4</div>
+    </div>
+</body>
+</html>

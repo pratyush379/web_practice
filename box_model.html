@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        .container{
+            background-color: rgb(150, 122, 122);
+            border : 3px solid black;
+            margin: 33px ;
+             padding: 33px; 
+            /*padding/margin : top right  bottom left */
+            width: 250px;
+            height: 250px;
+            /*width include margin and padding*/
+           box-sizing:border-box ;
+           
+           /*if we want our toatl width andd height reamin same without adding margin and padding to iy*/
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p id="first">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel perspiciatis tempora repudiandae animi explicabo reiciendis ullam commodi aliquid distinctio, amet facere at laboriosam cum odit quas officia cumque quibusdam earum.
+    </p>
+</div>
+<div class="container">
+    <p id="second">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel perspiciatis tempora repudiandae animi explicabo reiciendis ullam commodi aliquid distinctio, amet facere at laboriosam cum odit quas officia cumque quibusdam earum.
+    </p>
+    </div>
+
+    <div class="container">
+    <p id="third">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel perspiciatis tempora repudiandae animi explicabo reiciendis ullam commodi aliquid distinctio, amet facere at laboriosam cum odit quas officia cumque quibusdam earum.
+    </p>
+    </div>
+</body>
+</html>
